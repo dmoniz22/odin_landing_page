@@ -3,11 +3,19 @@ header {
     background: #1F2937;
     display: flex;
     justify-content: space-between;
+    flex: 1;
+    flex-wrap: wrap;
 }
 
-.container {
+/* .header_container {
     display: flex;
     justify-content: space-between;
+} */
+
+.title_container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
 }
 
 .logo {
